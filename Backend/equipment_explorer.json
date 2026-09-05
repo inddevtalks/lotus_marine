@@ -1,0 +1,259 @@
+{
+  "module": "Equipment Explorer",
+  "tree": [
+    {
+      "id": "1",
+      "name": "[1] SHIP GENERAL",
+      "children": [
+        {
+          "id": "1.1",
+          "name": "General Details & Certificates",
+          "items": [
+            { "code": "SG-101", "name": "Certificate of Registry", "location": "Bridge Deck", "status": "Valid", "vessel": "MV Ocean Titan" },
+            { "code": "SG-102", "name": "Safety Construction Certificate", "location": "Ship Office", "status": "Valid", "vessel": "MV Ocean Titan" }
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Stability & Loading Systems",
+          "items": [
+            { "code": "SG-201", "name": "Loadmaster Computer", "location": "Cargo Control Room", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "[2] HULL",
+      "children": [
+        {
+          "id": "2.1",
+          "name": "Hull Structure & Plating",
+          "items": [
+            { "code": "HL-101", "name": "Forepeak Tank Plating", "location": "Forward Frame 0-15", "status": "Good", "vessel": "MV Ocean Titan" },
+            { "code": "HL-102", "name": "Double Bottom Tank 1 Port", "location": "Frame 40-70", "status": "Inspection Due", "vessel": "MV Ocean Titan" }
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Rudder & Steering Gear Bay",
+          "items": [
+            { "code": "HL-201", "name": "Semi-Spade Rudder Trunk", "location": "Aft Compartment", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "[3] EQUIPMENT FOR CARGO",
+      "children": [
+        {
+          "id": "3.1",
+          "name": "Cargo Cranes & Derricks",
+          "items": [
+            { "code": "CG-101", "name": "Cargo Crane No. 1 (30T)", "location": "Main Deck Fwd", "status": "Operational", "vessel": "MV Ocean Titan" },
+            { "code": "CG-102", "name": "Cargo Crane No. 2 (30T)", "location": "Main Deck Mid", "status": "Maintenance Due", "vessel": "MV Ocean Titan" }
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Hatch Covers & Securing",
+          "items": [
+            { "code": "CG-201", "name": "Hydraulic Hatch Cover Hold 1", "location": "Cargo Hold 1", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "[4] SHIP EQUIPMENT",
+      "children": [
+        {
+          "id": "4.1",
+          "name": "Anchor & Mooring Winches",
+          "items": [
+            { "code": "SE-101", "name": "Windlass & Anchor Winch Port", "location": "Forecastle Deck", "status": "Operational", "vessel": "MV Ocean Titan" },
+            { "code": "SE-102", "name": "Mooring Winch Aft Starboard", "location": "Poop Deck", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        },
+        {
+          "id": "4.2",
+          "name": "Lifeboats & Davits",
+          "items": [
+            { "code": "SE-201", "name": "Freefall Lifeboat", "location": "Stern Deck", "status": "Inspected", "vessel": "MV Ocean Titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "[5] EQUIPMENT FOR CREW AND PASSENGERS",
+      "children": [
+        {
+          "id": "5.1",
+          "name": "Galley & Mess Equipment",
+          "items": [
+            { "code": "CP-101", "name": "Electric Cooking Range", "location": "Galley", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        },
+        {
+          "id": "5.2",
+          "name": "HVAC & Air Conditioning",
+          "items": [
+            { "code": "CP-201", "name": "Accommodation AC Compressor 1", "location": "AC Room", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "[6] MACHINERY MAIN COMPONENTS",
+      "children": [
+        {
+          "id": "6.1",
+          "name": "Main Engine (Diesel)",
+          "items": [
+            { "code": "MC-101", "name": "Main Engine Cylinder Head Unit 1", "location": "Engine Room Top Platform", "status": "Operational", "vessel": "MV Ocean Titan" },
+            { "code": "MC-102", "name": "MAN Turbocharger TCR22", "location": "Engine Room Upper Deck", "status": "Overhaul Required", "vessel": "MV Ocean Titan" }
+          ]
+        },
+        {
+          "id": "6.2",
+          "name": "Diesel Generators (Aux Engines)",
+          "items": [
+            { "code": "MC-201", "name": "Aux Generator Set 1 (600kW)", "location": "Engine Room Floor", "status": "Operational", "vessel": "MV Ocean Titan" },
+            { "code": "MC-202", "name": "Aux Generator Set 2 (600kW)", "location": "Engine Room Floor", "status": "Standby", "vessel": "MV Ocean Titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "[7] SYSTEMS FOR MACHINERY MAIN COMPONENTS",
+      "children": [
+        {
+          "id": "7.1",
+          "name": "Fuel Oil Purifiers & Transfer",
+          "items": [
+            { "code": "SY-101", "name": "HFO Purifier Unit 1", "location": "Separator Room", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        },
+        {
+          "id": "7.2",
+          "name": "Cooling Water Systems",
+          "items": [
+            { "code": "SY-201", "name": "Central Freshwater Cooling Pump 1", "location": "Engine Room Lower Platform", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "[8] SHIP COMMON SYSTEMS",
+      "children": [
+        {
+          "id": "8.1",
+          "name": "Bilge & Ballast Systems",
+          "items": [
+            { "code": "CS-101", "name": "Oily Water Separator (15ppm)", "location": "Engine Room Lower Level", "status": "Certified", "vessel": "MV Ocean Titan" }
+          ]
+        },
+        {
+          "id": "8.2",
+          "name": "Firefighting Systems",
+          "items": [
+            { "code": "CS-201", "name": "Emergency Fire Pump", "location": "Steering Gear Room", "status": "Operational", "vessel": "MV Ocean Titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "CHARTS & PUBLICATIONS",
+      "items": [
+        { "code": "PUB-01", "name": "Admiralty Vector Chart Service (AVCS)", "location": "Bridge ECDIS", "status": "Updated", "vessel": "MV Ocean Titan" },
+        { "code": "PUB-02", "name": "International Code of Signals", "location": "Bridge Chart Table", "status": "Onboard", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "CHEMICALS & GASES",
+      "items": [
+        { "code": "CHM-01", "name": "Boiler Water Treatment Chemical (25L)", "location": "Chemical Store", "status": "Stock 4 Drums", "vessel": "MV Ocean Titan" },
+        { "code": "CHM-02", "name": "Oxygen Gas Cylinder (40L)", "location": "Poop Deck Gas Locker", "status": "Full", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "CONSUMABLE STORES",
+      "items": [
+        { "code": "CON-01", "name": "Cotton Waste Rags (25kg)", "location": "Engine Store", "status": "In Stock", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "ES ITEMS",
+      "items": [
+        { "code": "ESI-01", "name": "Electrical Safety Inspection Tool Kit", "location": "Workshop", "status": "Calibrated", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "IMPA CATALOGUE",
+      "items": [
+        { "code": "IMP-330101", "name": "IMPA Marine Stores Guide 7th Edition", "location": "Ship Office", "status": "Available", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "LUBRICANTS",
+      "items": [
+        { "code": "LUB-01", "name": "Shell Alexia 100 Cylinder Oil", "location": "Storage Tank 1", "status": "12,000 Liters", "vessel": "MV Ocean Titan" },
+        { "code": "LUB-02", "name": "Mobilgard 300 System Oil", "location": "Storage Tank 2", "status": "8,500 Liters", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "MEDICINES",
+      "items": [
+        { "code": "MED-01", "name": "Category A Medical Chest", "location": "Hospital Ward", "status": "Inspected Valid", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "MOORING WIRES AND ROPES",
+      "items": [
+        { "code": "ROP-01", "name": "Polypropylene Mooring Rope (64mm)", "location": "Forecastle Store", "status": "Good Condition", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "PAINTS_NEW",
+      "items": [
+        { "code": "PNT-01", "name": "Jotun Epoxy Primer Grey (20L)", "location": "Paint Room", "status": "15 Cans", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "PPE",
+      "items": [
+        { "code": "PPE-01", "name": "Safety Helmet White", "location": "Safety Locker", "status": "25 Units", "vessel": "MV Ocean Titan" },
+        { "code": "PPE-02", "name": "Immersion Suit XL", "location": "Lifeboat Locker", "status": "Certified", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "PROVISIONS & BONDED",
+      "items": [
+        { "code": "PRV-01", "name": "Dry Provisions Stock", "location": "Dry Provision Store", "status": "Sufficient 45 Days", "vessel": "MV Ocean Titan" }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "WALKIE TALKIES",
+      "items": [
+        { "code": "WT-01", "name": "Motorola UHF Intrinsically Safe Walkie-Talkie", "location": "Bridge Charger Station", "status": "Operational", "vessel": "MV Ocean Titan" }
+      ]
+    }
+  ]
+}
